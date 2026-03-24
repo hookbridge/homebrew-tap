@@ -1,30 +1,30 @@
 class Hb < Formula
   desc "CLI tool for receiving webhooks locally during development"
   homepage "https://github.com/hookbridge/hookbridge-cli"
-  version "1.0.1"
+  version "1.0.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v#{version}/hb_v#{version}_darwin_arm64.tar.gz"
-      sha256 "dac47801dfeb463f2c97ee132c503cf08d3103eab95308591c9d1b78f6b69217"
+      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v1.0.2/hb_v1.0.2_darwin_arm64.tar.gz"
+      sha256 "3b258e0b8cd4c856a4b7ba17673575232b6dd71ae94006bb7a717dddfc5faf9d"
     end
 
     on_intel do
-      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v#{version}/hb_v#{version}_darwin_amd64.tar.gz"
-      sha256 "92f780e21d56bf988ad1ba98d69355369850b8e1a5fdbae56244760e78b70e01"
+      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v1.0.2/hb_v1.0.2_darwin_amd64.tar.gz"
+      sha256 "41b8a1b3317713f8e46311845fdbaeebb165f10d1dfb33ef66ca613f9aefd397"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v#{version}/hb_v#{version}_linux_arm64.tar.gz"
-      sha256 "79d15c477e52a89c6217d27eab6fce2e61148df635dd1e96ef8ec4576ea055ac"
+      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v1.0.2/hb_v1.0.2_linux_arm64.tar.gz"
+      sha256 "5cb904511c4374ce0ac0d3e4aa9ed93731647e636ca4e320c903b5cd25ae1ca8"
     end
 
     on_intel do
-      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v#{version}/hb_v#{version}_linux_amd64.tar.gz"
-      sha256 "2debeb9c8aa7fd787b0d66ee10b16f39881636d40fe22508a959682441ce2943"
+      url "https://github.com/hookbridge/hookbridge-cli/releases/download/v1.0.2/hb_v1.0.2_linux_amd64.tar.gz"
+      sha256 "00d8504ad20cfbad3c67c8df6bcba9116b0c24b902e682217bd92f3accdc95c2"
     end
   end
 
